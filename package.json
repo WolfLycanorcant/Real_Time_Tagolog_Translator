@@ -1,0 +1,31 @@
+{
+  "name": "tagalog-translator",
+  "version": "1.0.0",
+  "description": "Full-stack Tagalog to English voice translator with Ollama",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../testing && npm install",
+    "test": "cd testing && node run-all-tests.js",
+    "test:frontend": "cd testing && npm run test:frontend",
+    "test:backend": "cd testing && npm run test:backend",
+    "test:integration": "cd testing && npm run test:integration",
+    "test:coverage": "cd testing && npm run test:coverage",
+    "test:watch": "cd testing && npm run test:watch"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
