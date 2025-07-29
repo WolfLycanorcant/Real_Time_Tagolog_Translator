@@ -1,0 +1,62 @@
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T20:44:36.032Z"}
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T20:44:36.343Z"}
+{"level":"error","message":"Transcription error: Whisper service unavailable after 3 attempts: fetch failed","service":"tagalog-translator-backend","stack":"Error: Whisper service unavailable after 3 attempts: fetch failed\n    at WhisperService.executeWithRetry (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/whisperService.js:147:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async WhisperService.transcribeAudio (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/whisperService.js:13:12)\n    at async file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/server.js:147:20","timestamp":"2025-07-29T20:44:46.103Z"}
+{"level":"error","message":"Transcription error: Whisper service unavailable after 3 attempts: fetch failed","service":"tagalog-translator-backend","stack":"Error: Whisper service unavailable after 3 attempts: fetch failed\n    at WhisperService.executeWithRetry (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/whisperService.js:147:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async WhisperService.transcribeAudio (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/whisperService.js:13:12)\n    at async file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/server.js:147:20","timestamp":"2025-07-29T20:45:02.772Z"}
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T20:45:06.618Z"}
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T20:45:36.580Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:39:39.983Z"}
+{"level":"error","message":"❌ Ollama connection failed: fetch failed","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:39:39.984Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:42:12.908Z"}
+{"level":"error","message":"❌ Ollama connection failed: fetch failed","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:42:12.909Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:44:42.647Z"}
+{"level":"error","message":"❌ Ollama connection failed: fetch failed","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:44:42.648Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:44:59.013Z"}
+{"level":"error","message":"❌ Ollama connection failed: fetch failed","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:44:59.014Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:54:58.493Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:54:58.614Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:54:58.616Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:54:58.689Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:54:58.693Z"}
+{"level":"error","message":"Translation error: Ollama service unavailable after 3 attempts: fetch failed","name":"OllamaConnectionError","service":"tagalog-translator-backend","stack":"OllamaConnectionError: Ollama service unavailable after 3 attempts: fetch failed\n    at OllamaService.executeWithRetry (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/ollamaService.js:179:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OllamaService.translateText (file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/services/ollamaService.js:17:12)\n    at async file:///C:/Users/Administrator/wolf/fixes/Real_Time_Tagolog_Translator/backend/src/server.js:99:20","status":503,"timestamp":"2025-07-29T21:55:09.867Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:55:28.632Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:55:28.701Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:55:58.633Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:55:58.745Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:56:28.646Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:56:28.748Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:56:58.629Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:56:58.736Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:57:28.625Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:57:28.695Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:57:58.624Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:57:58.703Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:58:28.629Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:58:28.697Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:58:58.619Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:58:58.692Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:59:28.715Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:59:28.810Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:59:58.630Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T21:59:58.697Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:00:28.619Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:00:28.693Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:00:58.619Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:00:58.689Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:01:28.632Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:01:28.700Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:01:58.669Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:01:58.816Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:02:28.642Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:02:28.833Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:02:58.634Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:02:58.712Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:03:28.643Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:03:28.806Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:03:58.649Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:03:58.733Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:04:28.623Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:04:28.702Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:04:58.642Z"}
+{"level":"error","message":"Ollama health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:04:58.712Z"}
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:05:58.943Z"}
+{"level":"error","message":"Whisper health check failed:","service":"tagalog-translator-backend","timestamp":"2025-07-29T22:06:28.819Z"}

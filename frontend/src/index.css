@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, rgb(239 246 255), rgb(224 231 255));
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: rgb(37 99 235);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(29 78 216);
+  }
+  
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .btn-secondary {
+    background-color: rgb(75 85 99);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgb(55 65 81);
+  }
+  
+  .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+  }
+  
+  .error-message {
+    color: rgb(220 38 38);
+    background-color: rgb(254 242 242);
+    border: 1px solid rgb(254 202 202);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .success-message {
+    color: rgb(22 163 74);
+    background-color: rgb(240 253 244);
+    border: 1px solid rgb(187 247 208);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .warning-message {
+    color: rgb(217 119 6);
+    background-color: rgb(254 252 232);
+    border: 1px solid rgb(254 240 138);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Custom animations */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
